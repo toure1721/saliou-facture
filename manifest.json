@@ -1,23 +1,30 @@
 {
   "name": "SALIOU FACTURE",
   "short_name": "SALIOU FACTURE",
+  "id": "/saliou-facture/",
   "start_url": "/saliou-facture/",
   "scope": "/saliou-facture/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0b3d91",
-  "description": "Application de facturation SALIOU FACTURE",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
